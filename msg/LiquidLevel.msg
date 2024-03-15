@@ -1,0 +1,5 @@
+std_msgs/Header header
+
+float32 liquid_volume
+float32 container_volume
+float32 min_volume_detection

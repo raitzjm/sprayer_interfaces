@@ -1,0 +1,2 @@
+sprayer_interfaces/LiquidLevel liquid_level
+uint8 container_percentage

@@ -1,2 +1,2 @@
-std_msgs/header header
+std_msgs/Header header
 uint8 percentage

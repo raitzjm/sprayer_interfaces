@@ -1,0 +1,1 @@
+NozzleStatus[] nozzle_group_status

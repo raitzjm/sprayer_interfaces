@@ -1,0 +1,2 @@
+std_msgs/Header header
+sprayer_interfaces/NozzleStatusArray nozzle_group_status

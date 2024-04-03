@@ -1,0 +1,3 @@
+sprayer_interfaces/NozzleStatusArrayStamped nozzl_group_status
+---
+bool success

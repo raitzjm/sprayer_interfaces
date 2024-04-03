@@ -12,14 +12,25 @@ find_package(ament_cmake REQUIRED)
  find_package(std_msgs REQUIRED)
  find_package(rosidl_default_generators REQUIRED)
 
-
- rosidl_generate_interfaces(${PROJECT_NAME}
+set(msg_files
   "msg/LiquidLevel.msg"
   "msg/LiquidLevelWithPercentage.msg"
   "msg/ContainerLiquidPercentage.msg"
+  "msg/NozzleStatus.msg"
+  "msg/NozzleStatusArray.msg"
+  "msg/NozzleStatusArrayStamped.msg"
+  "msg/NozzleStatusStamped.msg"
+)
 
-  DEPENDENCIES std_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
+set(srv_files
+  "srv/SetNozzleGroupStatus.srv"
+  "srv/SetNozzleStatus.srv"
+)
 
+ rosidl_generate_interfaces(${PROJECT_NAME}
+  ${msg_files}
+  ${srv_files}
+  DEPENDENCIES std_msgs # Add packages that above messages depend on
 )
 
 if(BUILD_TESTING)

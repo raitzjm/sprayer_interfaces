@@ -1,0 +1,2 @@
+uint32 nozzle_id
+uint8 duty_cycle

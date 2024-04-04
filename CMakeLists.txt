@@ -23,8 +23,8 @@ set(msg_files
 )
 
 set(srv_files
-  "srv/SetNozzleGroupStatus.srv"
   "srv/SetNozzleStatus.srv"
+  "srv/SetNozzleStatusArray.srv"
 )
 
  rosidl_generate_interfaces(${PROJECT_NAME}

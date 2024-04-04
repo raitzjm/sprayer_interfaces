@@ -1,1 +1,1 @@
-NozzleStatus[] nozzle_group_status
+NozzleStatus[] nozzle_status_array

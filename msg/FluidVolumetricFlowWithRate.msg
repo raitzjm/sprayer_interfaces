@@ -1,3 +1,3 @@
 std_msgs/Header header
 float32 fluid_volumetric_flow
-float32 fluid_volumetric_flowrate
+float32 fluid_volumetric_flow_rate

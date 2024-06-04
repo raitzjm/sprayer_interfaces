@@ -20,6 +20,7 @@ set(msg_files
   "msg/NozzleStatusArray.msg"
   "msg/NozzleStatusArrayStamped.msg"
   "msg/NozzleStatusStamped.msg"
+  "msg/FluidVolumetricFlowWithRate.msg"
 )
 
 set(srv_files
